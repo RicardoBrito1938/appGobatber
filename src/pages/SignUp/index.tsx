@@ -12,6 +12,7 @@ import {
 import Icon from 'react-native-vector-icons/Feather';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
+import { Form } from '@unform/mobile';
 import api from '../../services/api';
 
 import {
@@ -26,7 +27,6 @@ import logoImg from '../../assets/logo.png';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-import { Form } from '@unform/mobile';
 import getValidationErrors from '../../utils/getValidationErrors';
 
 const SignUp: React.FC = () => {

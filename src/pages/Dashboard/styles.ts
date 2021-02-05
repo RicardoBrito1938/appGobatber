@@ -13,7 +13,7 @@ export const Header = styled.View`
   padding-top: ${getStatusBarHeight() + 24}px;
   background: #28262e;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `;
 
